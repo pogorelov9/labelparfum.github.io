@@ -1,0 +1,48 @@
+/**
+ * The styleheets of Customizr are located in inc/css. Each skin has its own stylesheet : blue.css, green.css, ...
+ *
+ * IMPORTANT : If you write your CSS code below, it will be deleted when you'll update the theme.
+ * If you want to style the css of Customizr, you can either use the Custom CSS section in the customizer (which will not be lost on update) OR create a child theme (recommended if you do many customizations) and add your css code in the style.css file of it.
+ */
+
+
+
+.navbar .nav > li > a {padding: 5px 6px !important;}
+.wcmenucart-display-right {float: right !important;}
+.amount{font-size: 20px;font-weight:bold;color:maroon;}
+#menu-item-790 a{padding: 5px 0 !important;padding-left:20px !important;}
+#menu-item-790 a:hover{color:rgb(119, 119, 119) !important;}
+.wcmenucart-display-right a{padding: 5px 0 !important;}
+.wcmenucart-icon-shopping-cart-0:before {float:left !important;font-size:20px !important;}
+#footer {background:orange !important;}
+
+
+
+
+.woocommerce .related ul.products li.product, .woocommerce-page .related ul.products li.product, .woocommerce .upsells.products ul.products li.product, .woocommerce-page .upsells.products ul.products li.product, .woocommerce .related ul li.product, .woocommerce-page .related ul li.product, .woocommerce .upsells.products ul li.product, .woocommerce-page .upsells.products ul li.product {width:22% !important;}
+
+.social-likes__widget{margin:0 !important;}
+
+.woocommerce .quantity .minus, .woocommerce-page .quantity .minus, .woocommerce #content .quantity .minus, .woocommerce-page #content .quantity .minus {
+    top: 0px !important;
+    left: 0px !important;
+}
+
+.woocommerce .quantity input.qty, .woocommerce-page .quantity input.qty, .woocommerce #content .quantity input.qty, .woocommerce-page #content .quantity input.qty {
+    width: 55px !important;}
+
+.woocommerce .quantity .plus, .woocommerce-page .quantity .plus, .woocommerce #content .quantity .plus, .woocommerce-page #content .quantity .plus, .woocommerce .quantity .minus, .woocommerce-page .quantity .minus, .woocommerce #content .quantity .minus, .woocommerce-page #content .quantity .minus {height: 28px !important;}
+
+.woocommerce form .form-row input.input-text, .woocommerce-page form .form-row input.input-text, .woocommerce form .form-row textarea, .woocommerce-page form .form-row textarea {min-height: 28px !important;}
+
+.woocommerce div.product form.cart .variations label, .woocommerce-page div.product form.cart .variations label, .woocommerce #content div.product form.cart .variations label, .woocommerce-page #content div.product form.cart .variations label {color: black !important;}
+
+h1 {font-size: 30px !important; line-height: 30px !important;}
+.carousel-caption {background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.4) !important;}
+
+
+
+.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {width: 58% !important;}
+
+
+.wpmenucart-icon-shopping-cart-0:before {float:left;}

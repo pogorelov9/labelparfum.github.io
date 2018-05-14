@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Callme: пример</title>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+<style>body { padding: 0 20% 50px; font-size: 13px; font-family: "PT Sans", Arial; }
+#footer { position: fixed; left: 0; bottom: 0; padding: 10px; background: #f9f9f9; width: 100%; }
+#footer, #footer * { color: #aaa; }
+dir { background:#ffe; padding: 3px 15px; border: 1px solid #FBFAE6; }
+</style>
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+<link rel='stylesheet' href='/callme/templates/blackred/style.css' type='text/css'>
+<script type="text/javascript" src="/callme/js/jquery.js"></script>
+<script type="text/javascript" src="/callme/js/callme.js"></script>
+
+</head>
+<body>
+<h1>Тестируем CallMe 1.8.0</h1>
+
+<p>Давайте посмотрим, как работает CallMe. Нажмите на любую из ссылок ниже.</p>
+<p><a href="#" class="callme_viewform">Кликайте на любую ссылку</a>, чтобы показать форму заказа. <a href="#" class="callme_viewform">Вообще на любую</a>. <a href="#" class="callme_viewform">Кликайте</a> на любую из них повторно, чтобы форма скрылась.</p>
+<p>Все очень просто: любому объекту, который должен по клику показывать или скрывать форму, добавляйте аргумент:</p>
+<dir>class="callme_viewform"</dir>
+
+<h2>Как менять темплейты</h2>
+В комплекте 6 различных скинов, которые меняются при помощи CSS. Чтобы выбрать другой скин, перед вызовом скрипта нужно поменять его таблицу стилей:
+<dir>&lt;link rel='stylesheet' href='/callme/templates/fb/style.css' type='text/css'&gt;</dir>
+Вместо fb укажите название скина, выберите любой:
+<ul>
+	<li><a href="apple.html">apple</a> (в стиле Apple)
+	<li><a href="index.html">default</a> (по умолчанию, самый крутой)
+	<li><a href="blackred.html">blackred</a> (красно-чёрный)
+	<li><a href="vk.html">vk</a> (ВКонтакте)
+	<li><a href="fb.html">fb</a> (Facebook)
+	<li><a href="hkitty.html">hkitty</a> (Hello Kitty)
+</ul>
+
+Если хотите убрать кнопку справа, это сделать просто, перед вызовом скрипта добавляйте:
+<dir>&#60;script&#62; var cm_bt = 0; &#60;/script&#62;</dir>
+
+<h2>Как подключить</h2>
+Обратите внимание: если вы обновляете более старую версию Callme, вам нужно будет удалить её код и установить заново. Это несложно, тем не менее, код придётся обновить.
+<blockquote>О том, как настраивать СМС, написано здесь: <a href="http://dedushka.org/kod/3903.html">настройка СМС в Buyme и Callme</a>.</blockquote>
+Скачивайте архив (ссылка ниже), распаковывайте его в корневую папку /callme/. Открывайте в Notepad++ или Sublime Text (<strong><span style="text-decoration: underline;">не</span></strong> блокноте) файл /callme/index.php и меняйте почту на свою.
+
+Установки производится так: перед закрывающимся тегом &lt;/head&gt; добавляем такой код:
+<dir>&lt;link rel="stylesheet" href="/callme/templates/fb/style.css" type="text/css"&gt; 
+&lt;script src="/callme/js/callme.js"&gt;&lt;/script&gt;</dir>
+Всё.
+
+<h2>Условия использования</h2>
+Пользоваться можно бесплатно, оставляя копирайт. Если хотите новых версий и технической поддержки, поддерживайте и вы меня материально: <a href="http://dedushka.org/pay">здесь все реквизиты</a>. Тех, кто помогает больше всего, я указываю на <a href="http://dedushka.org/thanks">странице благодарностей</a> со ссылками на их проекты (ТИЦ=350, PR=4). Если необходимо стереть копирайт, переводите 7$ (210 рублей, 60 грн) и стирайте. Но лучше оставьте — чем больше пользователей, тем больше будет новых доработок.
+
+<h2>Помощь по установке</h2>
+Если что-то не получается, вы можете заказать у меня платную установку скрипта на любой движок, для этого пишите <a href="mailto:nazartokar@gmail.com">на почту</a>. Если хотите ставить своими силами, но что-то не получается, читайте комментарии к постам и <a href="http://qbx.me" target="_blank">форум</a>. С вероятностью 95% ваш вопрос уже решён и ответ вы найдёте, если поищете.
+
+
+<div id="footer">Спасибо за использование скрипта. Не забывайте следить за новыми версиями <a href="http://dedushka.org/">на сайте</a> и <a href="http://qbx.me/">на форуме</a>. Спасибо за поддержку!</div></body></html>
